@@ -22,7 +22,18 @@ For any of the commands, you'll need the ToDo token:
   *  Click `...` -> `Print, export and share` -> `Export JSON`
 * Run the script
     ```
-    ./import_from_trello.py PATH/TO/TRELLO/EXPORT.json -l ListName -l AnotherListName -l ....
+    ➜  ./import_from_trello.py ~/Downloads/xXxXx.json
+    == Available lists ==
+    * Pending
+    * Defined
+    * Ongoing
+    * Done
+    * Fail
+    Select at least ONE list to import
+
+    ➜  ./import_from_trello.py ~/Downloads/xXxXx.json -l 'Defined' -l 'Ongoing'
+    Progress: 29/29
+    Done
     ```
 * Done
   * Preserves:
